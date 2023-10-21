@@ -1,0 +1,21 @@
+body{
+    width: 550px;
+    height: 400px;
+    background-color: black;
+    color: white;
+}
+.heading{
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 60px;
+}
+#mySelect{
+    width: 80%;
+    margin-top: 30px !important;
+    margin-left: 50px;
+
+}
+#fetchDOM{
+    position: relative;
+    left: 50px;
+}

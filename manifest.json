@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Page Object Model Generator",
+    "version": "1.0",
+    "description": "Generate Page Object Model of a webpage in three different languages Java, Python and Javascript",
+    "permissions": [
+      "activeTab",
+    "downloads",
+    "scripting",
+    "storage",
+    "tabs"
+    ],
+    "action": {
+      "default_popup": "POMDashboard.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["POMDashboard.js"],
+        "all_frames": true
+      }]
+    }
+  
+  
